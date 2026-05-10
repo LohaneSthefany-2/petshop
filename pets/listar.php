@@ -14,7 +14,7 @@ $pets = $stmt->fetchAll();
 
 <?php foreach ($pets as $pet) { ?>
     <p>
-        <?php echo $pet['nome_pet']; ?> -
+        <?php echo $pet['nomepet']; ?> -
         <?php echo $pet['dono']; ?> -
         <?php echo $pet['tipo']; ?>
         <a href="editar.php?id=<?php echo $pet['id']; ?>">Editar</a>
