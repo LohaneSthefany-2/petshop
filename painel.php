@@ -18,7 +18,7 @@ require("login/seguranca.php");
 <body class="h-screen overflow-hidden">
     <div
         class="w-full h-full bg-cover bg-center relative"
-        style="background-image: url('animaispainel.jpg');"
+        style="background-image: url('img/animaispainel.jpg');">
     >
         <div class="absolute inset-0 bg-black/60"></div>
         <div class="relative z-10 p-10 h-full flex flex-col">

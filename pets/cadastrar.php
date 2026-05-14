@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body
 class="min-h-screen bg-cover bg-center"
-style="background-image: url('../cadastrarpets.jpg');"
+style="background-image: url('../img/cadastrarpets.jpg');"
 >
 
     <div class="min-h-screen bg-black/60 flex items-center justify-center p-10">

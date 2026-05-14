@@ -14,19 +14,13 @@ $pets = $stmt->fetchAll();
 <html lang="pt-br">
 
 <head>
-
     <meta charset="UTF-8">
-
     <title>Pets</title>
-
-    <!-- TAILWIND -->
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
-
 <body
     class="min-h-screen bg-cover bg-center"
-    style="background-image: url('../listarpets.jpg');">
+    style="background-image: url('../img/listarpets.jpg');">
 
     <div class="min-h-screen bg-black/60 p-10">
 
@@ -54,7 +48,7 @@ $pets = $stmt->fetchAll();
 
                 <div class="bg-white/20 backdrop-blur-lg rounded-3xl p-6 border border-white/20 shadow-2xl hover:scale-105 transition-all duration-300">
                     <img
-                        src="../c2.jpg"
+                        src="../img/c3.jpg"
                         class="w-full h-52 object-cover rounded-2xl">
 
                     <div class="mt-5">
