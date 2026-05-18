@@ -1,6 +1,6 @@
 <?php
 
-require("login/seguranca.php");
+require("../login/seguranca.php");
 
 ?>
 
@@ -18,7 +18,7 @@ require("login/seguranca.php");
 <body class="h-screen overflow-hidden">
     <div
         class="w-full h-full bg-cover bg-center relative"
-        style="background-image: url('img/animaispainel.jpg');">
+        style="background-image: url('../img/animaispainel.jpg');">
     >
         <div class="absolute inset-0 bg-black/60"></div>
         <div class="relative z-10 p-10 h-full flex flex-col">
@@ -41,7 +41,7 @@ require("login/seguranca.php");
                         </p>
                     </div>
                     <a
-                        href="login/logout.php"
+                        href="../login/logout.php"
                         class="bg-pink-400 hover:bg-pink-300 transition-all duration-300 text-white px-6 py-3 rounded-2xl font-bold"
                     >
                         Sair
@@ -50,7 +50,7 @@ require("login/seguranca.php");
             </div>
             <div class="flex justify-center items-center flex-1 gap-10">
                 <a
-                    href="pets/listar.php"
+                    href="../pets/listar.php"
                     class="w-[300px] h-[220px] bg-white/20 backdrop-blur-lg rounded-3xl border border-white/20 hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center shadow-2xl"
                 >
                     <h2 class="text-3xl font-bold text-white">
@@ -61,7 +61,7 @@ require("login/seguranca.php");
                     </p>
                 </a>
                 <a
-                    href="clientes/listar.php"
+                    href="../clientes/listar.php"
                     class="w-[300px] h-[220px] bg-white/20 backdrop-blur-lg rounded-3xl border border-white/20 hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center shadow-2xl"
                 >
                     <h2 class="text-3xl font-bold text-white">
@@ -72,7 +72,7 @@ require("login/seguranca.php");
                     </p>
                 </a>
                 <a
-                    href="consultas/listar.php"
+                    href="../consultas/listar.php"
                     class="w-[300px] h-[220px] bg-white/20 backdrop-blur-lg rounded-3xl border border-white/20 hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center shadow-2xl"
                 >
                     <h2 class="text-3xl font-bold text-white">

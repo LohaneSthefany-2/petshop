@@ -21,7 +21,7 @@ $consultas = $stmt->fetchAll();
 
 <body
     class="min-h-screen bg-cover bg-center"
-    style="background-image: url('img/listarconsultas.jpg');">
+    style="background-image: url('../img/listarpets.jpg');">
 
     <div class="min-h-screen bg-black/60 p-10">
 
@@ -57,13 +57,13 @@ $consultas = $stmt->fetchAll();
                         </h2>
 
                         <p class="text-pink-100 mt-3 text-lg">
-                             Dono:
-                            <?php echo $consulta['dono']; ?>
+                             Data:
+                            <?php echo $consulta['dataconsulta']; ?>
                         </p>
 
                         <p class="text-pink-100 mt-2 text-lg">
-                            Tipo:
-                            <?php echo $consulta['tipo']; ?>
+                            Descrição:
+                            <?php echo $consulta['descricao']; ?>
                         </p>
                     </div>
 

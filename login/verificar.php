@@ -21,7 +21,7 @@ if($usuario && password_verify($senha, $usuario['senha'])){
 
     $_SESSION['usuario'] = $usuario['nome'];
 
-    header("Location: ../dashboard.php");
+    header("Location: ../painel/index.php");
     exit();
 
 }else{
